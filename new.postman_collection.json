@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "2670d803-5901-4ec7-bf11-21bdafde21ab",
+		"name": "new",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/purplepatchproject/api/saveContact",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Method",
+						"value": "POST",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"contactname\":\"test eati\",\r\n\t\"contactemail\":\"test@test.com\",\r\n\t\"contactsubject\":\"test\",\r\n\t\"contactmsg\":\"test\"\r\n}"
+				},
+				"url": "http://localhost/purplepatchproject/api/saveContact"
+			},
+			"response": []
+		}
+	]
+}
